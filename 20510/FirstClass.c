@@ -45,7 +45,7 @@ int main()
     y1=0;
     x2=2;
     y2=3;
-    printf("(%d,%d) 부터(%d,%d)까지의 거리는 %f 입니다. \n",x1,y1,x2,y2,sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)));
+    printf("(%d,%d) 부터(%d,%d)까지의 거리는 %f 입니다. \n",x1,y1,x2,y2,sqrt(pow((x1-x2),2)+pow((y1-y2), 2)));
     return 0;
 }
 
